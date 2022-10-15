@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.941c4c98.css",
-    "main.js": "/personal-portfolio/static/js/main.987dcbfc.js",
+    "main.css": "/personal-portfolio/static/css/main.8cb991e4.css",
+    "main.js": "/personal-portfolio/static/js/main.ea3952ee.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/pexels-joyston-judah-933054.webp": "/personal-portfolio/static/media/pexels-joyston-judah-933054.7a8ea3d603f78d0a127e.webp",
     "static/media/cdd.webp": "/personal-portfolio/static/media/cdd.acbd4c93a35a29e381d0.webp",
@@ -17,12 +17,12 @@
     "static/media/notfound.webp": "/personal-portfolio/static/media/notfound.598ea71eba741c770413.webp",
     "static/media/signup.webp": "/personal-portfolio/static/media/signup.c9210a03abe874b9a295.webp",
     "index.html": "/personal-portfolio/index.html",
-    "main.941c4c98.css.map": "/personal-portfolio/static/css/main.941c4c98.css.map",
-    "main.987dcbfc.js.map": "/personal-portfolio/static/js/main.987dcbfc.js.map",
+    "main.8cb991e4.css.map": "/personal-portfolio/static/css/main.8cb991e4.css.map",
+    "main.ea3952ee.js.map": "/personal-portfolio/static/js/main.ea3952ee.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.941c4c98.css",
-    "static/js/main.987dcbfc.js"
+    "static/css/main.8cb991e4.css",
+    "static/js/main.ea3952ee.js"
   ]
 }
