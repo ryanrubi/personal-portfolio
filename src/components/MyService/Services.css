@@ -42,7 +42,6 @@
 }
 
 @media only screen and (max-width: 490px) {
-
     .services-div { padding: 8rem 2rem; }
 
     .services-container {
@@ -59,5 +58,4 @@
     .services-box { font-size: 12px;}
     
     .services-container h4 { font-size: 14px; }
-    
 }

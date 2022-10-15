@@ -17,11 +17,11 @@
 }
 
 @media only screen and (max-width: 490px) {
-    .footer-container {
+    /* .footer-container {
         padding: 0 2rem;
     }
 
     .footer-name, .footer-text {
         font-size: 12px;
-    }
+    } */
 }
