@@ -1,0 +1,64 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+#background-img {
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; 
+  opacity: 0.4;
+  position: fixed;
+  z-index: -1;
+  display: block;
+}
+
+.title-p {
+  color: rgb(234, 99, 81);
+  line-height: 0;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(230, 230, 230);
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 1680px) {
+  h2 {
+    font-size: 18px;
+  }
+  
+  .text {
+    font-size: 14px;
+  }
+
+  #background-img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .title-p {
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  .text {
+    font-size: 12px;
+  }
+
+  #background-img {
+    display: none;
+  }
+}

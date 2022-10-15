@@ -1,0 +1,103 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    margin-top: 2rem;
+    padding: 14rem 8rem;
+}
+
+.about-box-2 {
+    padding: 10px 50px;
+    width: 130rem;
+}
+
+.about-box-3 {
+    padding: 10px 50px;
+    width: 100rem;
+    border-left: 2px solid rgb(234, 99, 81);
+}
+
+#about-img {
+    width: 28rem;
+    height: 28rem;
+}
+
+#gmail {
+    font-size: 18px;
+    color: rgb(234, 99, 81);
+}
+
+#download {
+    padding: 10px 20px;
+    border: 2px solid rgb(234, 99, 81);
+    border-radius: 2px;
+    background-color: transparent;
+    color: rgb(234, 99, 81);
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#download:hover {
+    background-color: rgb(234, 99, 81);
+    color: rgb(230, 230, 230);
+    transition: 0.2s;
+}
+
+@media only screen and (max-width: 1680px) {
+    .about-container { padding: 14rem 8rem; }
+    
+    #about-img {
+        width: 26rem;
+        height: 26rem;
+    }    
+
+    #download {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .about-container {
+        flex-direction: column;
+        gap: 0;
+        padding: 4rem;
+    }
+
+    #about-img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .about-box-1 {
+        padding: 3rem;
+        width: 16rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-box-2 {
+        padding: 3rem;
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-box-3 {
+        padding: 3rem;
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-left: none;
+    }
+
+    #download {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+}

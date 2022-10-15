@@ -1,0 +1,20 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+    padding: 14rem 0 12rem 0;
+}
+
+.contact-box-2 {
+    padding-top: 6rem;
+}
+
+#contact-img {
+    width: 28rem;
+    height: 28rem;
+}
+
+#gmail {
+    font-size: 18px;
+    color: rgb(234, 99, 81);
+}

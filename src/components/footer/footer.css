@@ -1,0 +1,27 @@
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.footer-name {
+    border-right: 1px solid rgb(230, 230, 230);
+    color: rgb(234, 99, 81);
+}
+
+.footer-text {
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 490px) {
+    .footer-container {
+        padding: 0 2rem;
+    }
+
+    .footer-name, .footer-text {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,231 @@
+.proj-div {
+    padding: 9rem 12rem 4.98rem 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-container {
+    display: flex;
+    gap: 4px;
+}
+
+/* PROJECT DASHBOARD */
+.proj-box-1,
+.proj-box-2 { width: 41.3rem; }
+.proj-box-1 img,
+.proj-box-2 img {
+    width: 100%;
+    height: 100%;
+}
+.proj-box-3 { padding: 0 0 0 8rem; }
+
+/* PROJECT ADDTOCART */
+.proj-box-4 {width: 24rem;}
+.proj-box-4 img{
+    width: 24rem;
+    height: 15.1rem;
+    padding: 0;
+}
+.proj-box-5,
+.proj-box-6 { width: 20rem; }
+.proj-box-5 img {
+    width: 20rem;
+    height: 30.5rem;
+}
+.proj-box-6 img {
+    width: 20rem;
+    height: 10rem;
+}
+
+.proj-box-7 { padding: 5rem 0 5rem 8rem; }
+
+/* LOGO */
+#logo {
+    color: rgb(234, 99, 81);
+    font-size: 72px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 12rem;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+/* BACK BUTTON */
+#back {
+    color: rgb(234, 99, 81);
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(234, 99, 81);
+    border-radius: 10px;
+    padding: 10px 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 12rem;
+}
+#back:hover {
+    color: rgb(230, 230, 230);
+    background-color: rgb(234, 99, 81);
+    transition: 0.3s;
+}
+
+/* TITLE */
+#title-proj {
+    color: rgb(234, 99, 81);
+    line-height: 0;
+    font-size: 20px;
+}
+
+/* PROJECT LINK */
+.proj-link {
+    color: rgb(234, 99, 81);
+    line-height: 0;
+    font-size: 18px;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 14px 20px;
+    background-color: black;
+    color: rgb(230, 230, 230);
+    border: 1px solid rgb(234, 99, 81);
+    outline: none;
+}
+
+/* SOURCE BUTTON */
+.source-code {
+    width: 60%;
+    color: rgb(230, 230, 230);
+    border: 2px solid rgb(234, 99, 81);
+    border-radius: 5px;
+    background-color: rgb(234, 99, 81);
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.source-code:hover {
+    background-color: rgb(228, 67, 63);
+    border: 2px solid rgb(228, 67, 63);
+}
+
+@media only screen and (max-width: 1680px) {
+    .proj-div { padding: 9rem 8rem 4.98rem 8rem; }
+
+    /* PROJECTS */
+    .proj-box-1,
+    .proj-box-2 { width: 28.9rem; }   
+    .proj-box-3 { padding: 0 0 0 6rem; }
+    .proj-box-4,
+    .proj-box-5,
+    .proj-box-6 { width: 19rem; }
+    .proj-box-4 img{
+        width: 19rem;
+        height: 12rem;
+    }
+    .proj-box-5 img {
+        width: 19rem;
+        height: 24.3rem;
+    }
+    .proj-box-6 img {
+        width: 17rem;
+        height: 127px;
+    }
+    .proj-box-7 { padding: 5rem 0 5rem 4rem; }
+
+    /* LOGO */
+    #logo {
+        font-size: 64px;
+        left: 8rem;
+    }
+
+    /* BACK BUTTON */
+    #back {
+        font-size: 14px;
+        right: 8rem;
+    }
+    /* TITLE */
+    #title-proj { font-size: 18px; }
+
+    /* PROJECT LINK */
+    .proj-link { font-size: 14px;}
+
+    input[type=text] {
+        width: 72%;
+        padding: 14px 12px;
+    }
+
+    /* SOURCE BUTTON */
+    .source-code {
+        width: 50%;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .proj-div { padding: 8rem 2rem; }
+
+    .proj-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    /* PROJECTS */
+    .proj-box-1,
+    .proj-box-2,
+    .proj-box-4,
+    .proj-box-5,
+    .proj-box-6 { width: 20rem; }
+    .proj-box-1 img,
+    .proj-box-2 img,
+    .proj-box-4 img,
+    .proj-box-6 img {
+        width: 20rem;
+        height: 12rem;
+    }
+    .proj-box-5 img {
+        width: 20rem;
+        height: 32rem;
+    }
+    .proj-box-3,
+    .proj-box-7 {
+        width: 20rem;
+        padding: 2rem 0;
+    }
+
+    /* LOGO */
+    #logo {
+        left: 1rem;
+        font-size: 50px;
+    }
+
+    /* BACK BUTTON */
+    #back {
+        font-size: 12px;
+        right: 1rem;
+    }
+
+    /* TITLE */
+    #title-proj {
+        margin-left: 3rem;
+        font-size: 14px;
+    }
+
+    /* PROJECT LINK */
+    .proj-link { font-size: 12px; }
+
+    input[type=text] {
+        width: 52%;
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+    /* SOURCE BUTTON */
+    .source-code {
+        width: 64%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
