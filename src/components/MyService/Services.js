@@ -34,7 +34,7 @@ const Services = () => {
         <div className="services-div" id="services">
             <motion.div initial={"offscreen_title"} whileInView={"onscreen_title"} viewport={{ once: true, amount: 0.5 }}>
                 <motion.p variants={container} className="title-p">What I do</motion.p>
-                <motion.h2 variants={container} className="title-h2">My Services</motion.h2>
+                <motion.h2 variants={container}>My Services</motion.h2>
             </motion.div>
             <br/><br/>
             <motion.div className="services-container" initial={"offscreen_item"} whileInView={"onscreen_item"} viewport={{ once: true, amount: 0.5 }}>

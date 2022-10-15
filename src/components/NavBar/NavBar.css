@@ -64,7 +64,7 @@ li {
 
 /* IF SCROLL Y >= 10 */
 .nav-ul.fixed {
-    padding: 1.5rem 12rem 1.5rem 12rem;
+    padding: 1.5rem 12rem;
     background-color: rgb(234, 99, 81);
     position: fixed;
     transition: 0.3s ease-out;
@@ -102,6 +102,10 @@ li {
 }
 
 @media only screen and (max-width: 1680px) {
+    .nav-ul {
+        padding: 2.5rem 12rem;
+    }
+
     .logo {
         font-size: 64px;
         left: 8rem;

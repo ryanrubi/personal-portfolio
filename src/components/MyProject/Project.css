@@ -11,7 +11,7 @@
 
 /* PROJECT DASHBOARD */
 .proj-box-1,
-.proj-box-2 { width: 41.3rem; }
+.proj-box-2 { width: 44rem; }
 .proj-box-1 img,
 .proj-box-2 img {
     width: 100%;
@@ -115,7 +115,7 @@ input[type=text] {
 
     /* PROJECTS */
     .proj-box-1,
-    .proj-box-2 { width: 28.9rem; }   
+    .proj-box-2 { width: 30.8rem; }   
     .proj-box-3 { padding: 0 0 0 6rem; }
     .proj-box-4,
     .proj-box-5,
