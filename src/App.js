@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar/NavBar";
 import Profile from "./components/Profile/Profile";
 import About from "./components/About/About";
 import Services from "./components/MyService/Services";
-import Contact from "./components/Contact/Contact";
 import Project from "./components/MyProject/Project";
 import Footer from "./components/footer/footer";
 import "./App.css";
@@ -28,10 +27,6 @@ function App() {
               <About/>
               
               <Services/>
-            </Route>
-
-            <Route path="/contact">
-              <Contact/>
             </Route>
 
             <Route path="/project">
