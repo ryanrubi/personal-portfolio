@@ -35,7 +35,7 @@
     .prof-container p { font-size: 20px; }
 }
 
-@media only screen and (max-width: 490px) {
+/* @media only screen and (max-width: 490px) {
     .prof-container{ padding: 16rem 2rem; }
     .prof-container img{
         width: 175px;
@@ -43,4 +43,4 @@
     }
     .prof-container h1 { font-size: 30px; }
     .prof-container p { font-size: 18px; }
-}
+} */

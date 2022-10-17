@@ -112,7 +112,7 @@ li {
     }
 }
 
-@media only screen and (max-width: 490px) {
+/* @media only screen and (max-width: 490px) {
     .nav {
         background: transparent; 
         z-index: 2;
@@ -158,7 +158,7 @@ li {
         top: 3px;
     }
 
-    /* IF SCROLL Y >= 10 */
+    IF SCROLL Y >= 10
     .nav.fixed {
         background: rgb(234, 99, 81);
         position: fixed;
@@ -186,4 +186,4 @@ li {
         font-size: 40px;
         color: rgb(230, 230, 230);
     }
-}
+} */

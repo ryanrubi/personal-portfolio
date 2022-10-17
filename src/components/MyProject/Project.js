@@ -1,14 +1,8 @@
 import { motion } from "framer-motion";
-import { NavLink, useHistory } from "react-router-dom";
+import Button from "../Button/Button";
 import "./Project.css";
 
 const Project = () =>{
-
-    const history = useHistory();
-
-    const homepage = () => {
-        history.push("/");
-    };
 
     const openNewTab = () => {
         window.open("https://github.com/ryanrubi/covid-dashboard", "_blank");
@@ -37,8 +31,7 @@ const Project = () =>{
 
     return (
         <div className="proj-div">
-            <h1 id="logo" onClick={homepage}>Ꮢ</h1>
-            <NavLink id="back" to="/">Go Back</NavLink>
+            <Button/>
             <motion.p id="title-proj" initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>My Project</motion.p>
             <br/><br/>
 

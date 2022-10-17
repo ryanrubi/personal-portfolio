@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Services from "./components/MyService/Services";
 import Project from "./components/MyProject/Project";
 import Footer from "./components/footer/footer";
+import NotFound from "./components/Notfound/Notfound";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
 
             <Route path="/project">
               <Project/>
+            </Route>
+
+            <Route path="/*">
+              <NotFound/>
             </Route>
           </Switch>
   

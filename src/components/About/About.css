@@ -58,7 +58,7 @@
     }
 }
 
-@media only screen and (max-width: 490px) {
+/* @media only screen and (max-width: 490px) {
     .about-container {
         flex-direction: column;
         gap: 0;
@@ -100,4 +100,4 @@
         margin-top: 30px;
     }
     
-}
+} */

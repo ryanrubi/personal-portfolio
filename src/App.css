@@ -45,7 +45,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 490px) {
+/* @media only screen and (max-width: 490px) {
   .title-p {
     font-size: 14px;
   }
@@ -61,4 +61,4 @@ h2 {
   #background-img {
     display: none;
   }
-}
+} */

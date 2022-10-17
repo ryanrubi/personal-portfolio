@@ -16,12 +16,12 @@
     color: rgb(230, 230, 230);
 }
 
-@media only screen and (max-width: 490px) {
-    /* .footer-container {
+/* @media only screen and (max-width: 490px) {
+    .footer-container {
         padding: 0 2rem;
     }
 
     .footer-name, .footer-text {
         font-size: 12px;
-    } */
-}
+    }
+} */
